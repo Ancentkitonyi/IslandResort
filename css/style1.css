@@ -1,0 +1,10 @@
+body{background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/0a/2c/00/65/25m-infinity-pool.jpg");
+background-size: cover;}
+img{height: 500px; width: 1000px; margin-bottom: 30px; margin-top: 1px;}
+h1{color: #ffff00; font-family: "Times New Roman"; font-style: italic; font-weight: bold; margin-bottom: 1px;}
+p{color : #f2f2f2; margin-top: 1px;}
+li{color: #ffffff; }
+h2{color: #ff0000; margin-bottom: 1px;}
+span{color: #ffff00;}
+h6{color: #ffff80; margin-top: 0px;}
+.class{color: #ffff00;}
