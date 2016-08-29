@@ -1,10 +1,40 @@
-body{background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/0a/2c/00/65/25m-infinity-pool.jpg");
+/*body{background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/0a/2c/00/65/25m-infinity-pool.jpg");
 background-size: cover;}
 img{height: 500px; width: 1000px; margin-bottom: 30px; margin-top: 1px;}
-h1{color: #ffff00; font-family: "Times New Roman"; font-style: italic; font-weight: bold; margin-bottom: 1px;}
-p{color : #f2f2f2; margin-top: 1px;}
+.page-header h1{color: #ff9900; font-family: "Bungee Shade"; font-style: italic; font-weight: bold; margin-bottom: 1px;}
+.container p{color : #f2f2f2; margin-top: 1px;}
 li{color: #ffffff; }
 h2{color: #ff0000; margin-bottom: 1px;}
 span{color: #ffff00;}
 h6{color: #ffff80; margin-top: 0px;}
-.class{color: #ffff00;}
+.page-header img {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+*/
+/*page header*/
+  .page-header h1{color: #ff9900; font-family: "Bungee Shade"; font-style: italic; font-weight: bold; margin-bottom: 1px;}
+
+#pic{
+  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2014/04/27/344466/big_thumb_2a95031b80531f1c5a9d33230fb3fd7e.jpg");
+  margin: 0px;
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  font-size: 50px;
+  color: #aaaaaa;
+  text-align: center;
+  opacity: 0.5;
+  font-family: "Tangerine";
+  margin-top: 0px;
+  z-index: -1;
+}
+#pic h2{
+  font-family: "Kaushan Script";
+  font-weight: bold;
+  font-size: 35px;
+  filter: opacity(0.5);
+}
+.container{
+  z-index: -1;
+}
