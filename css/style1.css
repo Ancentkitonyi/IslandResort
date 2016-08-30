@@ -1,40 +1,86 @@
-/*body{background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/0a/2c/00/65/25m-infinity-pool.jpg");
-background-size: cover;}
-img{height: 500px; width: 1000px; margin-bottom: 30px; margin-top: 1px;}
-.page-header h1{color: #ff9900; font-family: "Bungee Shade"; font-style: italic; font-weight: bold; margin-bottom: 1px;}
-.container p{color : #f2f2f2; margin-top: 1px;}
-li{color: #ffffff; }
-h2{color: #ff0000; margin-bottom: 1px;}
-span{color: #ffff00;}
-h6{color: #ffff80; margin-top: 0px;}
-.page-header img {
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-}
-*/
-/*page header*/
-  .page-header h1{color: #ff9900; font-family: "Bungee Shade"; font-style: italic; font-weight: bold; margin-bottom: 1px;}
 
-#pic{
-  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2014/04/27/344466/big_thumb_2a95031b80531f1c5a9d33230fb3fd7e.jpg");
+/*page header*/
+.page-header h1{color: #ff9900; font-family: "Bungee Shade"; font-style: italic; font-weight: bold; margin-bottom: 1px;}
+
+/*********index***********/
+.subtitle-headings{
   margin: 0px;
-  height: 650px;
   width: 100%;
-  background-size: cover;
   font-size: 50px;
-  color: #aaaaaa;
+  color: #afffc0;
+  z-index: 2;
   text-align: center;
-  opacity: 0.5;
   font-family: "Tangerine";
   margin-top: 0px;
-  z-index: -1;
+  margin-bottom: 0px;
 }
-#pic h2{
+.subtitle-headings h2{
   font-family: "Kaushan Script";
   font-weight: bold;
-  font-size: 35px;
-  filter: opacity(0.5);
+  font-size: 40px;
 }
-.container{
+.subtitle-headings li{
+  text-align: left;
+  margin-left: 20%;
+}
+
+.backimage{
+  width: 100%;
+  position: absolute;
+  z-index: -5;
+  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2014/04/27/344466/big_thumb_2a95031b80531f1c5a9d33230fb3fd7e.jpg");
+  background-size: cover;
+  height: 600px;
+}
+.overlay{
+  background-color: rgba(0,0,0,0.6);
+  z-index: 0;
+  margin: 0;
+  height: auto;
+}
+/****************accomodation / activities*****************/
+tr td img{
+  width: 300px;
+  height: 250px;
+}
+.acc-act{
+  text-align: center;
+  font-size: 25px;
+  font-family: serif;
+  z-index: 3;
+  color: #afffc0;
+}
+table{
+  width: 100%;
+}
+/************footer********************/
+#footer{
+  clear: both;
+  height: 150px;
+  width: 100%;
+  background-color: #000;
   z-index: -1;
 }
+/***********contact***/
+.ctc1 button{
+  background-color:#FF9900;
+  color:white;
+  font-size: 18px;
+  border:none;
+  border-radius: 25px;
+  padding: 10px;
+}
+.ctc1 a{color: #fff;display: block;} .ctc1 a:hover{ color: #000;}.ctc1{
+  margin-left: 20px;width: 500px;float: left;height: 400px;padding-left: 0px;}
+.contact h3{color: #afffc0;}
+.links{margin-left: 10px;margin-top: 10px;margin-bottom: 15px;}
+.ctc2 a{display: block;}
+.contact{background-color:rgba(0,0,0,0.6);height: 400px;}
+#msg{
+  width:40%;
+  padding:65px;
+  border-radius: 15px;
+  border:none;
+  height: 20px;
+}
+form{color:#fff;}
