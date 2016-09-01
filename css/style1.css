@@ -30,7 +30,7 @@
   z-index: -5;
   background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2014/04/27/344466/big_thumb_2a95031b80531f1c5a9d33230fb3fd7e.jpg");
   background-size: cover;
-  height: 600px;
+  height: 500px;
 }
 .overlay{
   background-color: rgba(0,0,0,0.6);
@@ -56,10 +56,33 @@ table{
 /************footer********************/
 #footer{
   clear: both;
-  height: 150px;
+  height: 200px;
   width: 100%;
   background-color: #000;
   z-index: -1;
+}
+#footer span{
+  color: blue;
+}
+.info{
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.row{
+  width: 25%;
+  float: left;
+  margin-top: 20px;
+}
+.online{
+  background-color:#FF9900;
+  color:white;
+  font-size: 18px;
+  border:none;
+  border-radius: 25px;
+  padding: 10px;
+  width: 200px;
+  margin-top: 40px;
 }
 /***********contact***/
 .ctc1 button{
