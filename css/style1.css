@@ -39,7 +39,7 @@
   height: auto;
 }
 /****************accomodation / activities*****************/
-tr td img{
+.row2 img{
   width: 300px;
   height: 250px;
 }
@@ -48,10 +48,12 @@ tr td img{
   font-size: 25px;
   font-family: serif;
   z-index: 3;
-  color: #afffc0;
+  color: #000;
+
 }
-table{
-  width: 100%;
+.row2{
+  float: left;
+  margin-left: 15px;
 }
 /************footer********************/
 #footer{
